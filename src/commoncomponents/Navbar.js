@@ -30,7 +30,7 @@ const components = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between h-28 px-10 bg-white">
+    <nav className="flex items-center justify-between  h-28 md:px-10  overflow-auto">
       <div>
         <Image src="/navbar/01_Logo.png" alt="logo" width={100} height={100} />
       </div>
@@ -108,8 +108,8 @@ const Navbar = () => {
           </NavigationMenuList>
         </NavigationMenu>
       </div>
-      <div>
-        <Button className="bg-[#66c186] p-4">Get Started</Button>
+      <div className="hidden md:block">
+        <Button className="bg-[#66c186] p-4 btn-grn">Get Started</Button>
       </div>
     </nav>
   );

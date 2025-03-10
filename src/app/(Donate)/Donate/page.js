@@ -9,12 +9,12 @@ const Donate = () => {
         About &nbsp;
         <span className="RealisticMarkerHighlight">Green Mentors</span>
       </h3>
-      <p className="mt-2 text-center w-2/3 mx-auto">
+      <p className="mt-2 text-center md:w-2/3 mx-auto w-11/12">
         Green Mentors is a non-government responsible education solution
         provider organization having special consultative status with the
         Economic and Social Council (ECOSOC) of the United Nations.
       </p>
-      <Card className="mt-28 w-2/5 mx-auto border-none rounded-[2vw] mb-28 p-4">
+      <Card className="mt-28 md:w-2/5 mx-auto border-none rounded-[2vw] mb-28 p-4 w-11/12 h-72 md:h-auto">
         <CardContent className="p-4">
           <h2 className="text-3xl font-bold text-center ">Donate Today</h2>
           <p className="mt-1 text-center  mx-auto">

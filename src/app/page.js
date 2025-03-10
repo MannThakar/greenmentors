@@ -13,13 +13,13 @@ const page = () => {
       <section>
         <Navbar />
       </section>
-      <section className="mb-32">
+      <section className="mb-36">
         <Hero />
       </section>
-      <section className="h-screen">
+      <section className="mb-36">
         <Founder />
       </section>
-      <section className="mb-36">
+      <section className="mb-32">
         <Association />
       </section>
       <section>

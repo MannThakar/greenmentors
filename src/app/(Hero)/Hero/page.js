@@ -14,12 +14,12 @@ import { HERO_CAROUSEL } from "@/utils/constants";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between container bg-[#edf8f1] rounded-lg">
-      <div className="w-3/5 pt-24 px-12">
+    <div className="flex justify-between container bg-[#edf8f1] rounded-lg flex-row">
+      <div className="md:w-3/5 pt-24 px-12 w-full">
         <h1 className="text-5xl font-bold bg-gradient-to-r from-[rgba(78,134,120,1)] to-[rgba(151,143,121,1)] text-transparent bg-clip-text">
           Green Mentors
         </h1>
-        <p className="mt-4 w-11/12">
+        <p className="mt-4 md:w-11/12 w-full">
           Green Mentors is a non-government responsible education solution
           provider organization having special consultative status with the
           Economic and Social Council (ECOSOC) of the United Nations.
@@ -67,13 +67,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-fit flex justify-end">
+      <div className="w-fit md:flex justify-end hidden">
         <Image
           src="/hero/01_HeroBanner.jpg"
           alt="logo"
           width={500}
           height={150}
-          className="h-[700px] w-auto rounded-lg "
+          className="h-[700px] w-auto rounded-lg sm:hidden md:block"
         />
       </div>
     </div>

@@ -19,7 +19,7 @@ const Founder = () => {
           2019 in the United States.
         </p>
       </header>
-      <section className="flex gap-6 mt-8 justify-center">
+      <section className="flex md:flex-row gap-6 mt-8 justify-center flex-col w-11/12 mx-auto md:w-full">
         {FOUNDER_IMAGES.map((individualRow, index) => (
           <Card className="" key={index}>
             <CardContent className="">
