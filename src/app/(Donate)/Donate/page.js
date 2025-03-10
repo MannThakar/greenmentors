@@ -21,7 +21,9 @@ const Donate = () => {
             Support the costs of the project to keep it alive
           </p>
           <div className="flex justify-center mt-8">
-            <Button className=" bg-[#66C186] max-w-28 p-4">Donate Now</Button>
+            <Button className=" bg-[#66C186] max-w-28 p-4 btn-grn">
+              Donate Now
+            </Button>
           </div>
         </CardContent>
       </Card>

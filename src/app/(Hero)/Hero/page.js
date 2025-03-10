@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { Button } from "@/components/ui/button";
@@ -31,7 +32,7 @@ const Hero = () => {
           />
           <Button
             type="submit"
-            className="bg-[rgba(78,134,120,1)] text-white  rounded-md h-12 w-20"
+            className="bg-[rgba(78,134,120,1)] text-white  rounded-md h-12 w-20 btn-grn"
           >
             <Search className="w-24 h-64 " />
           </Button>

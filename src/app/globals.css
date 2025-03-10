@@ -177,3 +177,15 @@
     max-width: 1400px;
   }
 }
+
+.btn-grn:hover {
+  background-color: #5aa874; /* Slightly darker green */
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+  .pt-partner {
+    padding-top: 10rem;
+  }
+}
